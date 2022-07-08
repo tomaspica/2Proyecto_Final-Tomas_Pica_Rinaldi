@@ -60,20 +60,12 @@ if (favoritos.length == 0) {
         `
         tbody.innerHTML += fav;
         }
-        
-    
-    /* const btnBorrar = document.getElementsByClassName('btnBorrar')
-    for(let i =0; i < btnBorrar.length ; i++){
-        btnBorrar[i].addEventListener("click", BorrarFavoritos)}
-        function BorrarFavoritos(e) {
-            const btn = e.target
-            const btnBorrar = btn.getElementsByClassName('btnBorrar')
-            
-        } */
+
         let BorrarFavoritos = document.getElementById("btnBorrar");
         BorrarFavoritos.onclick = () => {
         favoritos = []
         localStorage.setItem('favoritos', JSON.stringify(favoritos))
+        location.reload();
     }
          
 }

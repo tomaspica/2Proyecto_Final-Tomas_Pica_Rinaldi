@@ -79,6 +79,12 @@ let autos = [
     }
     console.log(favoritos)
     localStorage.setItem('favoritos', JSON.stringify(favoritos))
+    location.reload();
+    Toastify({
+      text:"Agregaste este producto a favoritos",
+      duration:1500,
+      onClick: function(){}
+    }).showToast
   }
   
   const contador = document.getElementById('favCounter')
