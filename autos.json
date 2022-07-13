@@ -1,0 +1,20 @@
+[
+{
+    "id":"001",
+    "auto":"Honda Civic",
+    "precio":"50000",
+    "desc":"motor 2.0 litros que alcanza los 320 caballos y un par máximo de 400 Nm. Con tracción delantera y transmisión manual de seis velocidades."
+  },
+  {
+    "id":"002",
+    "auto":"Ford Mondeo",
+    "precio":"90000",
+    "desc":" motor diésel 2.0 de 120, 150 y 190 CV, dejando la tracción total como opción para la versión más potente."
+  },
+  {
+    "id":"003",
+    "auto":"Chevrolet Cruze",
+    "precio":"70000",
+    "desc":"motor 1.4 L Turbo que desarrolla 153 hp y 240 Nm de torque. Provee un balance perfecto entre desempeño, eficiencia y refinamiento."
+  }
+]

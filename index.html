@@ -7,25 +7,41 @@
     <title>Alquiler De Coches</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </head>
 
 <body id="body">
-    
-<nav>
-    <h1 class="titulo">Alquiler de Coches</h1><hr>
-    <a class="favs" href="favoritos.html">
-        <img src="./img/corazon.png" height="50px" alt="corazon">
-        <span id="favCounter"></span>
-    </a>
-</nav>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-info">
+            <div class="container-fluid bg-info">
+              <img class="bg-info" src="./img/rentcarlogo.png" alt="logo">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+                <a class="favs" href="favoritos.html">
+                    <img class="bg-info" src="./img/corazon.png" height="50px" alt="corazon">
+                    <span class="bg-info" id="favCounter"></span>
+                </a>
+              </div>
+            </div>
+          </nav>
+    </header>
+<main>
 
-<div id="container">
+<div  id="container">
 
 
 </div>
-
-
+</main>
+<footer>
+    <ul class="nav justify-content-center bg-info">
+        <li class="bg-info">
+            <p class="bg-info">Copyright © 2022</p>
+        </li>
+      </ul>
+</footer>
 
 
 <script src="./index.js"></script>

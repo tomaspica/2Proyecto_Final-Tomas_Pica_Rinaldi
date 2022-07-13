@@ -24,14 +24,14 @@ let autos = [
   
   let favoritos;
   
-  if(JSON.parse(localStorage.getItem('favoritos'))) {
+   if(JSON.parse(localStorage.getItem('favoritos'))) {
     favoritos = JSON.parse(localStorage.getItem('favoritos'))
   } else {
     localStorage.setItem('favoritos', JSON.stringify([]))
     favoritos = JSON.parse(localStorage.getItem('favoritos'))
   }
-  
-  function desplegarAutos() {
+   
+   function desplegarAutos() {
   
     for (let i = 0; i < autos.length; i++) {
       const element = autos[i];
@@ -90,4 +90,20 @@ let autos = [
   const contador = document.getElementById('favCounter')
   contador.innerHTML = favoritos.length
   
-  
+  /* const createCard = (p) => {
+    contador.innerHTML += `
+      <div>
+        <h2>${p.species.name}</h2>
+        <img src="${p.sprites.front_default}" alt="">
+      </div>  
+    `
+  } */
+
+
+fetch('./autos.json')
+  .then(response => console.log(response))
+    /* .then(data => {
+      console.log(data);
+      createCard(data)
+    }) */
+    /* .catch(error => console.error(error)) */
