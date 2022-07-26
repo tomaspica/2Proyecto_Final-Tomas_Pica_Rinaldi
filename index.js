@@ -100,10 +100,18 @@ let autos = [
   } */
 
 
-fetch('./autos.json')
+/* fetch('./autos.json')
   .then(response => console.log(response))
-    /* .then(data => {
+   .then(data => {
       console.log(data);
       createCard(data)
-    }) */
-    /* .catch(error => console.error(error)) */
+    }) 
+    .catch(error => console.error(error)) */
+
+const fetchLocalData = () => {
+  fetch('./autos.json').then((response) => response.json())
+  .then((result) => {
+    console.log(result)
+  })
+}
+fetchLocalData();
