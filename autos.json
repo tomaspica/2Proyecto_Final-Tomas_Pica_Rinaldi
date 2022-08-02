@@ -1,20 +1,58 @@
 [
 {
     "id":"001",
+    "img":"./img/hondacivic.png",
     "auto":"Honda Civic",
     "precio":"50000",
     "desc":"motor 2.0 litros que alcanza los 320 caballos y un par máximo de 400 Nm. Con tracción delantera y transmisión manual de seis velocidades."
   },
   {
     "id":"002",
+    "img":"./img/fordmondeo.png",
     "auto":"Ford Mondeo",
     "precio":"90000",
     "desc":" motor diésel 2.0 de 120, 150 y 190 CV, dejando la tracción total como opción para la versión más potente."
   },
   {
     "id":"003",
+    "img":"./img/cruze.png",
     "auto":"Chevrolet Cruze",
     "precio":"70000",
     "desc":"motor 1.4 L Turbo que desarrolla 153 hp y 240 Nm de torque. Provee un balance perfecto entre desempeño, eficiencia y refinamiento."
+  },
+  {
+    "id":"004",
+    "img":"./img/amarok.png",
+    "auto":"Volkswagen Amarok",
+    "precio":"100000",
+    "desc":"Motor 2.0 TDI con 180 CV y hasta 420 Nm. Manual de 6 velocidades o automática de 8 velocidades.Tracción 4x4 integral permanente TORSEN o tracción simple 4x2 y tracción 4x4 conectable."
+  },
+  {
+    "id":"005",
+    "img":"./img/focus.png",
+    "auto":"Ford Focus",
+    "precio":"50000",
+    "desc":"motor de 2.0L con 4 cilindros y 160 HP @ 6,500 RPM, suspensión deportiva delantera McPherson y suspensión trasera independiente Multilink."
+  },
+  {
+    "id":"006",
+    "img":"./img/fiesta.png",
+    "auto":"Ford Fiesta",
+    "precio":"70000",
+    "desc":"motor 1.5 EcoBoost de tres cilindros y turbo que desarrolla 200 caballos de potencia y 290 Nm de par motor."
+  },
+  {
+    "id":"007",
+    "img":"./img/vento.png",
+    "auto":"Volkswagen Vento",
+    "precio":"90000",
+    "desc":"cuenta ahora con dos motores nafteros (2.5 de 5 cilindros 150 CV y el 2.0T FSI) y dos turbodiesel (1.9 TDI de 105 CV y 2.0 TDI de 140 CV)."
+  },
+  {
+    "id":"008",
+    "img":"./img/208.png",
+    "auto":"Peugeot 208",
+    "precio":"40000",
+    "desc":"motor 1.2L turboalimentado de 3 cilindros, con 130 CV y 230 Nm de torque desde las 1.750 RPM."
   }
 ]

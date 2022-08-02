@@ -21,7 +21,7 @@ function fetchJSON() {
         card += `
             <article class="card">
                 <div>
-                    <img class="imgAuto" src=${auto.img} alt="${auto.auto}"/>
+                    <img class="imgAuto" src=${auto.img} alt="${auto.auto} heigth="150px" width="350px"/>
                 <div/>
                 <div>
                     <p>${auto.auto}</p>
